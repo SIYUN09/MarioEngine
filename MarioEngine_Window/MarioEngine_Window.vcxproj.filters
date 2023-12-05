@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="MarioPlayer.h">
+      <Filter>MContents</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioEndScene.h">
+      <Filter>MScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioLoadScenes.h">
+      <Filter>MScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioPlayScene.h">
+      <Filter>MScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioTitleScene.h">
+      <Filter>MScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioLoadResources.h" />
+    <ClInclude Include="MarioPlayerScript.h">
+      <Filter>MScript</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioLoadingScene.h">
+      <Filter>MScenes</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioMonster.h">
+      <Filter>MContents</Filter>
+    </ClInclude>
+    <ClInclude Include="MarioMonsterScript.h">
+      <Filter>MScript</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MarioPlayer.cpp">
+      <Filter>MContents</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioEndScene.cpp">
+      <Filter>MScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioPlayScene.cpp">
+      <Filter>MScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioTitleScene.cpp">
+      <Filter>MScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioPlayerScript.cpp">
+      <Filter>MScript</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioLoadingScene.cpp">
+      <Filter>MScenes</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioMonster.cpp">
+      <Filter>MContents</Filter>
+    </ClCompile>
+    <ClCompile Include="MarioMonsterScript.cpp">
+      <Filter>MScript</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="MContents">
+      <UniqueIdentifier>{6787ceb5-f83f-4984-97dd-a44aed52a21d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MScenes">
+      <UniqueIdentifier>{ce7d909a-03ac-48d1-b437-0c42e365c590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MScript">
+      <UniqueIdentifier>{1c6ba5d1-66a0-4105-80f6-65b2b2c72715}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
